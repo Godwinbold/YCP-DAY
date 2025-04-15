@@ -77,7 +77,7 @@ const EventPage = () => {
           </div>
 
           <p className="text-gray-800 font-medium">
-            📞 Contact: <span className="font-semibold">Citadel — +2348063013630</span>
+            📞 Contact: <span className="font-semibold">Jane — +2347063857531</span>
           </p>
         </div>
       )}
