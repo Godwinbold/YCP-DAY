@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import QRPage from './pages/QRPage.jsx'
+//import QRPage from './pages/QRPage.jsx'
 import CompanyPage from "./pages/companypage";
 
 const App = () => {
@@ -8,8 +8,8 @@ const App = () => {
     <Router>
       <Routes>
       
-        <Route path="/company" element={<CompanyPage />} />
-        <Route path="/" element={<QRPage />} />
+        <Route path="/" element={<CompanyPage />} />
+        
       </Routes>
     </Router>
   );
